@@ -1,0 +1,188 @@
+body {
+    background-color: #ffffff;
+}
+
+/* table{
+    background-image: url("https://www.eyeqindia.com/lp/eye-hospital/images/eye_surgery.jpg");
+    background-size: cover;
+} */
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+.Header{
+    overflow: hidden;
+    width: 100%;
+}
+::-webkit-input-placeholder {
+    color: #17a2b8 !important;
+}
+
+.logo-img {
+    border-radius: 7rem;
+    width: 17%;
+    height: 3.6rem;
+    cursor: pointer;
+}
+
+.Banner {
+    width: 100%;
+    height: 30rem;
+}
+
+.logo-text {
+    cursor: pointer;
+}
+
+.logo-text-2 {
+    top: 35px;
+    left: -126px;
+    position: relative;
+}
+
+.table tbody tr {
+    transition: 1s ease-in-out;
+}
+
+.table-1 tbody tr:hover {
+    transition: 1s ease-in-out;
+    background-color: #17a2b8 !important;
+    color: #ffffff !important;
+}
+
+/* owl Craouser */
+.carousel {
+    height: 25rem;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 25rem;
+}
+
+/* Owl craouser end */
+/* teble */
+
+/* teble */
+
+/* Bill css */
+.bill-logo-img {
+    width: 150%;
+}
+
+.bill-logo-text {
+    font-size: 3.2rem;
+    left: 11px;
+    position: relative;
+}
+
+.bill-address {
+    position: relative;
+    top: -2rem;
+    margin-left: 8.2rem !important;
+}
+
+.bill-address-text {
+    width: 70%;
+}
+
+.table {
+    border: px solid #000 !important;
+}
+
+.bill-add-power {
+    position: relative;
+    top: -7px;
+}
+
+.bill-add-power-2 {
+    position: absolute;
+    width: 27rem;
+    top: 9.2rem;
+    height: 2.6rem;
+}
+
+/* .head-text{
+    position: relative;
+    top: -1.5rem;
+    right: -5rem;
+    width: 85%;
+} */
+/* testimonial */
+.testimonial-img {
+    height: 40rem;
+    width: 100%;
+}
+
+.testimonial-text {
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    top: -24rem;
+    right: -8rem;
+    width: 48rem;
+}
+
+.testimonial-heading {
+    font-size: 1.6rem;
+}
+
+.testimonial-paragraph {
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: uppercase;
+    letter-spacing: 4px;
+    position: relative;
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 30%);
+}
+
+.testimonial-paragraph::selection {
+    background: #FFF7B6;
+    color: black;
+}
+
+/* frame css */
+/* media query */
+@media(min-width:320px) and (max-width:375px) {
+    .logo-img {
+        border-radius: 21rem;
+        width: 30%;
+        height: 5.6rem;
+    }
+
+    .Frame-part {
+        margin-top: -18rem;
+    }
+
+    .testimonial-text {
+        color: #ffffff;
+        display: inline-block;
+        position: relative;
+        top: -27rem;
+        width: 15rem;
+        right: -1rem;
+    }
+
+    .logo-text-2 {
+        top: -88px;
+        left: 106px;
+        position: relative;
+    }
+
+    .logo-text {
+        position: relative;
+        top: -5rem;
+        right: -6rem;
+    }
+
+    .logo {
+        height: 6rem;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+}
